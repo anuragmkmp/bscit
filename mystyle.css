@@ -1,0 +1,54 @@
+
+/* .grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients
+    background-image: linear-gradient(red, yellow);}
+*/
+
+  #grad1 {
+    height: 90vh;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+
+  #grad2 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow,green);
+  }
+
+  /*ul,li{
+     font-size   : 30px;
+     font-weight : 900;
+     list-style  :none;
+     display: flex;
+     
+  }*/
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: green;
+  }
+
+  li a:active{
+    background-color: #ff0000;
+  }
